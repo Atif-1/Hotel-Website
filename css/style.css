@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+/*Utility classes*/
+.container{
+    margin: auto;
+ max-width: 1100px;
+ padding: 0 10px;
+}
+.clr{
+    clear: both;
+}
+#navbar{
+ background: #c34343;
+ overflow: auto;
+}
+#navbar h1{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-style: bold;
+    font-size: 25px;
+    border: 3px dotted #ffffffec;
+    margin: 5px;
+    margin-left: 20px;
+    color: #301735cb;
+}
+#navbar ul{
+    float: right;
+}
+#navbar li{
+    list-style-type: none;
+    margin: 0px 5px ;
+    float: left;
+}
+#navbar a:hover,#navbar a.current{
+    background: #302f2fa4;
+    color: #45c1e0;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#showcase{
+    background: url('../img/image_resources/showcase.jpg') no-repeat 
+    center center/cover;
+    height: 600px;
+}
+ .textcolor{
+  color: #c34343;
+}
+#showcase .content1{
+    text-align: center;
+    padding-top: 200px;
+    font-size:20px;
+    padding-bottom: 50px;
+}
+#showcase a{
+    text-decoration: none;
+}
+#showcase .btn{
+    display: inline-block;
+    background: rgba(19, 18, 18, 0.678);
+    border-radius: 4px;
+    color: #a9cae7;
+    padding:5px 10px;
+    border: none;
+}
+#showcase .btn:hover{
+  background:  #c34343;
+  color: #fff;
+}
+
+#showcase p{
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+#showcase h1{
+    font-size: 50px;
+}
+.box2{
+    height: 400px;
+}
+.history{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: #3f3d3d;
+    text-align: center;
+    color: #fff;
+    padding:  50px 30px;
+    overflow: auto;
+}
+.imag{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+ background:url('../img/image_resources/photo-1.jpg');
+
+}
+section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0px;
+}
+section .bt{
+    text-decoration: none;
+    background: rgba(223, 220, 220, 0.986);
+    border-radius: 2px;
+    font-size: 19px;
+    color: #0e0e0f;
+}
+.features{
+    height:200px;
+}
+.features .box{
+    float: left;
+    background: #ffffff;
+    width:33.3%;
+    text-align: center;
+    height: 100%;
+    margin: 0px;
+}
+#col2{
+    background: #f7c08a ;
+
+}
+footer{
+    background: #666666;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.upper{
+    background: #ffffffe0;
+    max-width: 1100px;
+    margin: auto;
+}
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.left h2{
+    font-size: 25px;
+}
+.right{
+    display: block;
+    max-width: 50%;
+    min-height: 50%;  
+    max-height: 300px;
+    border-radius:50% ;
+    padding: 20px;
+    margin: auto;
+}
+.lower{
+    background: url('/img/image_resources/test-bg.jpg');
+    max-width: 100%;
+    height: 600px;
+}
+.lower h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+}
+.guest1{
+    width: 30%;
+    max-height: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    float: left; 
+}
+.panel1 {
+    text-align: center;
+    margin: auto ;
+    max-width: 1100px;
+    background:#f7c18a9f;
+    margin-bottom: 30px;
+    height: 120px;
+    border-radius: 10px;
+    }
+.panel2{
+margin: auto;
+text-align: center;
+background: #f7c18a88;
+max-width: 1100px;
+height: 120px;
+border-radius: 10px;
+}
+.guest2{
+width: 30%;
+max-height: 100%;
+padding: 10px;
+border-radius: 50%;
+float: left;
+}
+.con{
+    color: #f7c08a;
+}
+form{
+    margin: auto;
+    width: 70%;
+    height: 632px;
+    padding: 20px 50px;
+}
+.block h1{
+    text-align: center
+}
+.block label{
+    font-size: 21px;
+} 
+.frm input{
+    width: 100%;
+    height: 30px;
+    margin:20px 0px ;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+
+}
+button{
+    transition: linear;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin: 30px 0px;
+
+    border-radius: 5px;
+}
+form p{
+    margin: 20px;
+}
+.con a
+{
+    text-decoration: none;
+    background-color: #fff;
+}
